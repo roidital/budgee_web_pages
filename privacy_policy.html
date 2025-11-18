@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budgee – Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Budgee – Privacy Policy</h1>
+<p><strong>Last updated:</strong> February 2025</p>
+<p><strong>Developer:</strong> Roi Dital</p>
+
+<p>
+    This Privacy Policy explains how the Budgee app (“the App”) collects, uses, and protects
+    your information. By using Budgee, you agree to the practices described here.
+</p>
+
+<hr />
+
+<h2>1. Information We Collect</h2>
+
+<h3>1.1 Notification Access (Google Wallet / Google Pay)</h3>
+<p>
+    Budgee requests permission to read push notifications. This permission is used
+    <strong>exclusively</strong> to read transaction notifications from
+    <strong>Google Pay / Google Wallet</strong>.
+</p>
+<p>From these notifications, the App extracts only:</p>
+<ul>
+    <li>Merchant name</li>
+    <li>Transaction amount</li>
+</ul>
+
+<p>
+    <strong>No other notifications</strong> from any other apps or sources are read, stored, parsed, or collected.
+</p>
+
+<h3>1.2 SMS Access (Israeli Credit Card Providers Only)</h3>
+<p>
+    Budgee may request permission to read SMS messages. The App reads SMS content
+    <strong>only</strong> from known Israeli credit card issuers, including:
+</p>
+<ul>
+    <li>Visa CAL</li>
+    <li>Isracard</li>
+    <li>Diners</li>
+    <li>Other established Israeli financial institutions</li>
+</ul>
+
+<p>The App extracts only:</p>
+<ul>
+    <li>Merchant name</li>
+    <li>Transaction amount</li>
+    <li>Installments count (if included)</li>
+    <li>Last 4 digits of the credit card (used solely for duplicate prevention)</li>
+</ul>
+
+<p>
+    The App <strong>does not read or process SMS messages</strong> from any other sender or source.
+</p>
+
+<h3>1.3 Financial Data You Enter</h3>
+<p>Your financial data may include:</p>
+<ul>
+    <li>Expenses and income</li>
+    <li>Budget settings</li>
+    <li>Loans</li>
+    <li>Salary (optional, only if provided)</li>
+</ul>
+
+<p>
+    This data is stored locally on the device in an
+    <strong>encrypted SharedPreferences</strong> storage, and is also synced securely (TLS)
+    to <strong>Firebase Realtime Database</strong> under your unique user ID.
+</p>
+
+<h3>1.4 Authentication Information</h3>
+<p>
+    Budgee uses <strong>Firebase Authentication</strong> to manage user login.
+    Firebase securely stores your:
+</p>
+<ul>
+    <li>Email address</li>
+    <li>Password (hashed/salted using Firebase security protocols)</li>
+</ul>
+
+<p>
+    This information is not stored or handled by the App directly.
+</p>
+
+<hr />
+
+<h2>2. How We Use Your Information</h2>
+<p>
+    The information collected is used solely for the core functionality of the App:
+</p>
+<ul>
+    <li>Automatically recording expenses from Google Wallet notifications</li>
+    <li>Automatically recording expenses from financial SMS messages</li>
+    <li>Displaying and syncing your budget and financial data</li>
+</ul>
+
+<p>
+    Your data is <strong>never sold, shared, or used for advertising.</strong>
+</p>
+
+<hr />
+
+<h2>3. Optional Data Sharing With OpenAI (ChatGPT)</h2>
+<p>
+    Some optional features in Budgee allow users to receive insights or summaries
+    using OpenAI's ChatGPT API.
+</p>
+
+<p><strong>Important:</strong></p>
+<ul>
+    <li>You are shown an in-app privacy warning before any data is sent.</li>
+    <li>The exact information being shared is clearly listed.</li>
+    <li>You must explicitly approve the sharing before the feature is used.</li>
+    <li>If you decline, no financial data is shared and the feature remains disabled.</li>
+</ul>
+
+<p>
+    Data is only shared with OpenAI when the user directly authorizes it.
+</p>
+
+<hr />
+
+<h2>4. Data Security</h2>
+<p>
+    We take security seriously:
+</p>
+<ul>
+    <li>Local storage uses encrypted SharedPreferences</li>
+    <li>All network communication uses TLS encryption</li>
+    <li>Firebase Realtime Database is protected with strict security rules</li>
+    <li>User data is isolated per account and not visible to other users</li>
+</ul>
+
+<hr />
+
+<h2>5. Data Retention & Deletion</h2>
+<p>
+    Your financial data is stored for as long as your account remains active.
+</p>
+
+<p>You may request deletion of your account and all associated data at any time.</p>
+
+<p>
+    To request deletion, please visit:
+    <br />
+    <a href="https://roidital.github.io/budgee_web_pages/delete_my_account_request.html">
+        Account Deletion Request Page
+    </a>
+</p>
+
+<p>
+    Once deletion is requested, all data in Firebase Authentication and Firebase
+    Realtime Database associated with your account will be permanently removed.
+</p>
+
+<hr />
+
+<h2>6. Children’s Privacy</h2>
+<p>
+    Budgee is not intended for use by individuals under the age of 13.
+    We do not knowingly collect information from children.
+</p>
+
+<hr />
+
+<h2>7. Changes to This Policy</h2>
+<p>
+    The Privacy Policy may be updated periodically. Updates will be posted on this page
+    with a new “Last updated” date.
+</p>
+
+<hr />
+
+<h2>8. Contact</h2>
+<p>
+    For questions, concerns, or privacy-related requests, you can contact:
+</p>
+
+<p style="font-size: 1.1em; font-weight: bold;">
+    roi@example.com
+</p>
+
+</body>
+</html>
